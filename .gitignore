@@ -45,7 +45,6 @@ app-example
 /android
 
 # package locks with package managers
-package-lock.json
 pnpm-lock.yaml
 yarn.lock
 

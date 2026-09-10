@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "NCD Assessment",
-    "slug": "healthcare-symptom-disease-prediction",
+    "slug": "ncd-assessment-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -48,8 +48,11 @@
       "typedRoutes": true
     },
     "extra": {
-      "router": {}
+      "router": {},
+      "eas": {
+        "projectId": "85e98014-4e45-447c-9284-705842a9f003"
       }
-    }
+    },
+    "owner": "sisays-org"
   }
 }
