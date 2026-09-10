@@ -9,7 +9,7 @@
     "userInterfaceStyle": "automatic",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.elijahizkiel.healthcaresymptomdiseaseprediction"
+      "bundleIdentifier": "com.sisayyigezu.ncdassessment"
     },
     "android": {
       "adaptiveIcon": {
@@ -20,7 +20,7 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.elijahizkiel.healthcaresymptomdiseaseprediction"
+      "package": "com.sisayyigezu.ncdassessment"
     },
     "web": {
       "output": "static",
@@ -48,9 +48,7 @@
       "typedRoutes": true
     },
     "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "797ce145-7fff-4653-ae91-7995f2300b59"
+      "router": {}
       }
     }
   }
