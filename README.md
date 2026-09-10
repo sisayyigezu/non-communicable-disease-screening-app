@@ -187,30 +187,13 @@ npx tsc --noEmit
 
 Core screening calculations are designed to run locally. The repository must not contain private credentials, signing keys, API keys, environment files, or identifiable health information.
 
-Do not commit:
-
-* `credentials.json`
-* `.env` files
-* Android keystores
-* Private keys
-* API keys or access tokens
-* Personal health information
-* Generated application builds
-
-Sensitive configuration should be managed using environment variables, Expo secrets, or another approved secret-management system.
-
 ## Limitations
 
-* Screening results are risk estimates, not diagnoses.
 * Results depend on the accuracy of the information entered by the user.
-* Screening questionnaires cannot replace laboratory tests or clinical evaluation.
-* The chatbot is not multilingual.
+* Screening questionnaires cannot replace laboratory diagnoses or clinical evaluation.
 * AI-generated responses may be incomplete or inaccurate.
 * Native AI functionality may require supported hardware and additional device storage.
 
-## Emergency Notice
-
-This application is not an emergency service. Anyone experiencing chest pain, severe breathing difficulty, loss of consciousness, signs of stroke, or another medical emergency should immediately contact their local emergency services.
 
 ## Additional Documentation
 
